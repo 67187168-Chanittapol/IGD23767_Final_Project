@@ -92,6 +92,14 @@ public class Player : Character
         isDashing = false;
     }
 
+    // Required by EquipmentSO.cs in the base framework
+    public void Equip(EquipmentSO equipment)
+    {
+        if (equipment == null) return;
+        attackPoints += equipment.bonusAttack;
+        defensePoints += equipment.bonusDefense;
+    }
+
     public override void TakeDamage(int damage, Character attacker)
     {
         if (isDashing) return;
