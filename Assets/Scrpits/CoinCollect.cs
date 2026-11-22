@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
@@ -17,6 +16,11 @@ public class CoinCollect : MonoBehaviour
         {
             Debug.Log("Collected Coin! Value: " + coinValue);
 
+            if (CoinManager.Instance != null)
+            {
+                CoinManager.Instance.AddCoins(coinValue);
+            }
+
             if (AudioManager.Instance != null)
             {
                 AudioManager.Instance.PlaySFX(collectSound);
@@ -26,3 +30,4 @@ public class CoinCollect : MonoBehaviour
         }
     }
 }
+

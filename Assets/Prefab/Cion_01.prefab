@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 102b109a07918a94daf1fc2418b69b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinValue: 1
+  coinValue: 5
   collectSound: {fileID: 8300000, guid: dcee6fb497f9bf44596bc3b4ca321511, type: 3}
 --- !u!1 &8891782826570094950
 GameObject:
