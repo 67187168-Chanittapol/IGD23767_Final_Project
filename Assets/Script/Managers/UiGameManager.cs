@@ -27,6 +27,12 @@ public class UiGameManager : MonoBehaviour
     private void Update()
     {
         stateMachine?.Update();
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            OnGameOver();
+        }
+
     }
 
     public void ChangeState(IGameState newState) 
@@ -40,4 +46,15 @@ public class UiGameManager : MonoBehaviour
 
         ChangeState(new PlayState());
     }
+
+    public void OnGameOver()
+    {
+        ChangeState(new GameOverState());
+    }
+
+    private void TestGameOver()
+    {
+        OnGameOver();
+    }
+
 }
