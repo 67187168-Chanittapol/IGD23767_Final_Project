@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scene/Scene Ui/Ui menu scene.unity
+    guid: 16c02e3c4b030b54e952362857890292
+  - enabled: 1
+    path: Assets/Scene/F1.unity
+    guid: df72a5196934a844e947249b0d7ec9af
+  - enabled: 1
+    path: Assets/Scene/F2.unity
+    guid: aea1e9f4d2bec934a9bc14a91fe8e308
+  - enabled: 1
+    path: Assets/Scene/F3.unity
+    guid: 32ea9dcdbbc7c0549bba804cafd0bc4a
+  - enabled: 1
+    path: Assets/Scene/Scene Ui/Pause scene.unity
+    guid: b91ee9a28d4150844886ea657ea0591f
+  - enabled: 1
+    path: Assets/Scene/Scene Ui/GameOver scene.unity
+    guid: c05636564423fab4eb6899c6b91bd8d3
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
